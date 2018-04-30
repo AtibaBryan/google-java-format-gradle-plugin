@@ -92,7 +92,7 @@ pluginBundle {
 publishing {
     publications {
         maven(MavenPublication) {
-            groupId 'com.github.sherter.googlejavaformatgradleplugin'
+            groupId 'com.github.sherter.google-java-format'
             artifactId 'google-java-format-gradle-plugin'
 
             from components.shadow
